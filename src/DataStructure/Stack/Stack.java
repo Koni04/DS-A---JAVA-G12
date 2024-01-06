@@ -28,7 +28,6 @@ public class Stack
                 case 2:
                     System.out.println("\n popped element : "+ s.pop());
                     break;
-
                 case 3:
                     System.out.println("\n top element : "+ s.peek());
                     break;
