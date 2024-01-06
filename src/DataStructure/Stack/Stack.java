@@ -37,10 +37,10 @@ public class Stack
                     break;
                 case 6: System.exit(0);
                     break;
-                default: System.out.println("\n Wrong Choice!");
+                default: System.out.println("\n Error Choice!");
                     break;
             }
-            System.out.println("\n 1/2 do u want to cont... ");
+            System.out.println("\n 1/2 do u want to continue... ");
         }
         while(in.nextInt() == 1);
 
