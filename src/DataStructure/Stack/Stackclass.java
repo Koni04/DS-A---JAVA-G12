@@ -27,13 +27,22 @@ public class Stackclass
 
     boolean display() {
         for (int i = 0; i <= top; i++)
-            System.out.print(name[i] + " ");
+            System.out.print(name[i] + " ,");
         System.out.println();
         return false;
     }
 
     boolean isEmpty() {
         return top == -1;
+    }
+
+    int search(String item) {
+        for (int i = 0; i <= top; i++) {
+            if (name[i].equals(item)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     String peek() {
