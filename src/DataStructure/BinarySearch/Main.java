@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String [] args) {
-        int[] array = new int[100];
-        int target = 42;
+        int[] array = new int[1000000];
+        int target = 4002;
 
         for (int i = 0; i < array.length; i++) {
             array[i] = i;
