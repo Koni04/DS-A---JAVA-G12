@@ -1,4 +1,4 @@
-package DataStructure.AdjancecyMatrix;
+package DataStructure.AdjancencyMatrix;
 
 public class Node {
     char data;

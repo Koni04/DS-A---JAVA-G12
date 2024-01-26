@@ -1,4 +1,4 @@
-package DataStructure.AdjancecyMatrix;
+package DataStructure.AdjancencyMatrix;
 
 public class Main {
     public static void main(String [] args) {
@@ -18,5 +18,7 @@ public class Main {
         graph.addEdge(4,2);
 
         graph.print();
+
+        System.out.println(graph.checkEdge(0, 1));
     }
 }
